@@ -21,7 +21,7 @@ body{
   color: var(--text-clr);
 
   background-color: var(--bg-clr);
-  background-image: url('/app/assets/bg-home.png');
+  background-image: url('/app/assets/bg-home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,17 +36,17 @@ a{
 }
 
 body.home{
-  background-image: url('/app/assets/bg-home.png');
+  background-image: url('/app/assets/bg-home.jpg');
 }
 
 
 body.exploration{
-  background-image: url('/app/assets/bg-exploration.png');
+  background-image: url('/app/assets/bg-exploration.jpg');
 }
 
 
 body.universe{
-  background-image: url('/app/assets/bg-universe.png');
+  background-image: url('/app/assets/bg-universe.jpg');
 }
 
 body.home li:nth-child(1),
