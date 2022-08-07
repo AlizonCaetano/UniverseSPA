@@ -4,9 +4,7 @@
 
 Neste projeto pude aprender mais sobre javascript assicrono e roteamento utilizando o conceito de SPA, utilizei o fetch para atualizar o conteúdo principal relacionado a cada página.
 
-### Resultado final
-
-<a href="[https://alizoncaetano.github.io/BarberFactory/](https://universe-spa.vercel.app/)"> SPA Universe</a>
+#### Resultado final <a href="https://universe-spa.vercel.app/"> SPA Universe</a>
 
 ---
 
