@@ -39,7 +39,6 @@ body.home{
   background-image: url('/app/assets/bg-home.jpg');
 }
 
-
 body.exploration{
   background-image: url('/app/assets/bg-exploration.jpg');
 }
@@ -85,13 +84,11 @@ nav ul li:hover a{
   color: var(--txt-hov-clr);
 }
 
-
 #app{
   min-height: calc(100vh - var(--nav-height));
   width: 100vw;
   display: grid;
 }
-
 
 .logo{
   width: 5rem;
@@ -148,20 +145,24 @@ main p {
   background-color: #fff;
   color: var(--txt-hov-clr);
 }
-@media(max-width: 600px){
-  main h1{
-    font-size: 2.8rem;
-  }
 
+@media(max-width: 600px){
   nav{
     padding: 1.4rem 0 0 1.4rem;
   }
-
+  
+  nav.navigation {
+    justify-content: space-around;
+  }
+  
   nav ul li{
     font-size: 1.5rem;
     padding: 1.3rem;
   }
-
+  
+  main h1{
+    font-size: 2.8rem;
+  }
 }
 
 @media(max-width: 495px){
@@ -169,7 +170,6 @@ main p {
     padding: 0.3rem;
   }
 }
-
 
 @media(max-width: 400px){
   nav ul li {
