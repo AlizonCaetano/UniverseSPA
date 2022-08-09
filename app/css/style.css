@@ -21,7 +21,7 @@ body{
   color: var(--text-clr);
 
   background-color: var(--bg-clr);
-  background-image: url('/app/assets/bg-home.jpg');
+  background-image: url('/app/assets/bg-home.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -60,6 +60,7 @@ body.exploration li:nth-child(3){
 nav{
   padding: 7rem 0 0 7rem;
   height: var(--nav-height);
+  font-size: 1.8rem;
 }
 
 nav, ul{
@@ -69,7 +70,7 @@ nav, ul{
 }
 
 nav ul li{
-  padding: 1.3rem;
+  padding: .5rem 1.3rem;
   margin-inline: 2rem;
   transition: .15s;
   border-radius: 4px;
@@ -124,7 +125,9 @@ main h1 {
 }
 
 main p {
+  line-height: 160%;
   font-size: 1.7rem;
+  max-width: 60rem;
 }
 
 .button{
@@ -161,8 +164,17 @@ main p {
 
 }
 
+@media(max-width: 495px){
+  nav ul li {
+    padding: 0.3rem;
+  }
+}
+
+
 @media(max-width: 400px){
-  nav ul li{
-    font-size: 1rem;
+  nav ul li {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 0;
   }
 }
