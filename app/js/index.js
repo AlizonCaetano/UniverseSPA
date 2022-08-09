@@ -9,5 +9,5 @@ router.add('404', './app/pages/404.html')
 
 router.handle()
 
-window.route = () => router.route()
+window.route = () => router.router()
 window.onpopstate = () => router.handle()
