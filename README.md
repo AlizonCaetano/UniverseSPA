@@ -1,8 +1,8 @@
 # SPA Universe
 
-# Desafio sobre Single Page Aplication.
+## Desafio sobre Single Page Aplication.
 
-Neste projeto pude aprender mais sobre javascript assicrono e roteamento utilizando o conceito de SPA, utilizei o fetch para atualizar o conteúdo principal relacionado a cada página.
+Apesar do layout simples, a ideia é transmitir o conhecimento em rotas através deste projeto, onde cada rota renderiza uma páginação diferente, meu maior desafio foi aprender a Orientação a Objeto na prática, onde criei a função construtora Router() que era invocava a em cada clique para zerar o confortamento padrão de cada ancor, onde o Router() possuí a função de captar o pathname e renderizar uma página referente a cada pathname, inclusive trocando a imagem do background.
 
 #### Resultado final <a href="https://universe-spa.vercel.app/"> SPA Universe</a>
 
