@@ -2,7 +2,7 @@
 
 ## Desafio sobre Single Page Aplication.
 
-Apesar do layout simples, a ideia é transmitir o conhecimento em rotas através deste projeto, onde cada rota renderiza uma parte da página para um html diferente, meu maior desafio foi aprender a Orientação a Objeto na prática, onde criei a função construtora Router() que era invocava a em cada clique para zerar o confortamento padrão de cada ancor, onde o Router() possuí a função de captar o pathname e renderizar uma página referente a cada pathname, inclusive trocando a imagem do background.
+Feito com Javascript puro, apresento meu conhecimento em conceitos de SPA, trabalhei com eventos assincronos, utilizando o fetch API para definir as rotas e tenho um pouquinho de conceitos de POO neste projeto, pois criei e usei uma função construtora dentro do projeto.
 
 #### Resultado final <a href="https://universe-spa.vercel.app/"> SPA Universe</a>
 
